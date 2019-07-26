@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 
-	int i,j,n,m;
+	int i,j,n,m;//n is number of nodes and m is number of edges b/w nodes
 	cin>>n>>m;
 	vector<pair<int,int> > gr[n+1];
 	for(i=0;i<m;i++){
